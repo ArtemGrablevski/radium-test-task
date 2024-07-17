@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 120
+ignore = D100 WPS226 D101 D102 WPS604 WPS210 WPS221 WPS432 WPS110 Q000 WPS305 D107 D103 WPS421
+exclude = tests/*
