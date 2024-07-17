@@ -1,8 +1,8 @@
 from unittest.mock import patch
 
-import pytest
 from aiohttp import ClientSession
 from aioresponses import aioresponses
+import pytest
 
 from src.file_downloader import FileDownloader, FileDownloaderError
 
